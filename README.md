@@ -1,29 +1,12 @@
-**📩 Real-Time Messaging App**
+# React + Vite
 
-A modern, real-time messaging application built with React.js and Tailwind CSS, featuring WebSocket integration for instant communication. The app supports both emails and text messages, with a live notification system, an intuitive message search, and a responsive UI.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-**✨ Features**
+Currently, two official plugins are available:
 
-✔ Real-time WebSocket Messaging – Receives new messages instantly.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-✔ Multi-Format Messaging – Supports both email and text messages.
+## Expanding the ESLint configuration
 
-✔ Unread Message Tracking – Highlights unread messages in the inbox.
-
-✔ Live Notifications – Displays pop-up alerts for new messages.
-
-✔ Smart Search – Find messages using sender, subject, or content.
-
-✔ Message Composition – Easily send new messages via a modal.
-
-✔ Elegant UI – Built with Tailwind CSS for a sleek, responsive design.
-
-✔ Auto WebSocket Reconnection – Ensures a stable real-time connection.
-
-**🚀 Tech Stack**
-
-Frontend: React.js, Tailwind CSS, Lucide Icons
-
-WebSockets: Integrated for real-time communication
-
-State Management: React Hooks (useState, useEffect, useCallback)
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
